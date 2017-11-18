@@ -18,6 +18,10 @@ const _ = require('underscore');
 
 const dicionario = [
 	{
+		char : /(J)/g,
+		replaceChar: 'X'
+	},
+	{
 		char : /(B)/g,
 		replaceChar: 'P'
 	},
@@ -60,7 +64,7 @@ const dicionario = [
 		replaceChar: 'F'
 	},
 	{
-		char : /ˆ[Z]/,
+		char : /ˆZ/,
 		replaceChar: 'S'
 	},
 	{
