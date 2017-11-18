@@ -2,7 +2,12 @@
 const Telegram = require('telegram-node-bot');
 const TelegramBaseController = Telegram.TelegramBaseController;
 const TextCommand = Telegram.TextCommand;
-const chatbot = new Telegram.Telegram('473007961:AAEaLMNx0W9zPhXMM0Jwpe3PEkPbQNkEee4');
+const chatbot = new Telegram.Telegram('473007961:AAEaLMNx0W9zPhXMM0Jwpe3PEkPbQNkEee4', {
+    webAdmin: {
+        port: 8080,
+        host: 'localhost'
+    }
+});
 const _ = require('underscore');
 //1 - tudo em maiúsculo
 //2 - Não há pontuação ou sinais gráficos (acento, til)
