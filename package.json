@@ -1,0 +1,15 @@
+{
+  "name": "patones-bot",
+  "version": "1.0.0",
+  "description": "Bot que ecoa qualquer mensagem enviada em patonês",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexandre Vasconcelos",
+  "license": "ISC",
+  "dependencies": {
+    "telegram-node-bot": "^4.0.5",
+    "underscore": "^1.8.3"
+  }
+}
