@@ -5,7 +5,7 @@ const TextCommand = Telegram.TextCommand;
 const chatbot = new Telegram.Telegram('473007961:AAEaLMNx0W9zPhXMM0Jwpe3PEkPbQNkEee4', {
     webAdmin: {
         port: 8080,
-        host: 'localhost'
+        host: '0.0.0.0'
     }
 });
 const _ = require('underscore');
