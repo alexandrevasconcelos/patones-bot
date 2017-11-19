@@ -125,7 +125,6 @@ class TranslateController extends TelegramBaseController {
 					word = word.replace(term.char,'$1'+term.replaceChar+'$3');
 				} else if (term.position == 'last') {
 					word = word.replace(term.char,'$1'+term.replaceChar);
-				}
 				} else {
 					word = word.replace(term.char,term.replaceChar);
 				}
