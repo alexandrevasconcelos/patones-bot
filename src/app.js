@@ -80,6 +80,11 @@ const dicionario = [
 	{
 		char : /Z/,
 		replaceChar: 'S'
+	},
+	{
+		position : 'first',
+		char : /(X)(E)/g,
+		replaceChar: 'SS'
 	}
 ]
 
