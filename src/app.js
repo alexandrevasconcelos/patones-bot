@@ -51,7 +51,7 @@ const dicionario = [
 	},
 	{
 		position : 'first',
-		char : /(G)(A|O|UA|UO|L|R|N|M)/g,
+		char : /(G)(A|O|U[^EI]|L|R|N|M)/g,
 		replaceChar: 'C'
 	},
 	{
