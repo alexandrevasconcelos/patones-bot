@@ -114,7 +114,7 @@ class HelloController extends TelegramBaseController {
 class TranslateController extends TelegramBaseController {
 
 	handle(scope) {
-		let msg = removerAcentos(scope.message.text.toUpperCase()).replace(/[.,?!:;]/g,'');
+		let msg = removerAcentos(scope.message.text.toUpperCase()).replace(/[.,?!:;-]/g,'');
 		let response = '';
 		_.each(msg.split(/\s+/),function(word) {
 			word = word.trim();
